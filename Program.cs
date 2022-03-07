@@ -13,7 +13,9 @@ namespace TicTacToeGame
             Console.WriteLine("Welcome to Tic Toe Game");
             TicTacToe obj = new TicTacToe();
             obj.gameBoard();
+            obj.abillityToInput();
 
         }
     }
+
 }
