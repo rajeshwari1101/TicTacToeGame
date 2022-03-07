@@ -14,7 +14,7 @@ namespace TicTacToeGame
             TicTacToe obj = new TicTacToe();
             obj.gameBoard();
             obj.abillityToInput();
-
+            obj.showGameBoard();
         }
     }
 

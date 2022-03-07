@@ -43,5 +43,16 @@ namespace TicTacToeGame
                 Console.WriteLine("Entered invalid input  ");
             }
         }
+
+        public void showGameBoard()
+        {
+            Console.WriteLine("|---|---|---|");
+            Console.WriteLine("| " + Board[1] + " | " + Board[2] + " | " + Board[3] + " | ");
+            Console.WriteLine("|---|---|---|");
+            Console.WriteLine("| " + Board[4] + " | " + Board[5] + " | " + Board[6] + " | ");
+            Console.WriteLine("|---|---|---|");
+            Console.WriteLine("| " + Board[7] + " | " + Board[8] + " | " + Board[9] + "  | ");
+            Console.WriteLine("|---|---|---|");
+        }
     }
 }
